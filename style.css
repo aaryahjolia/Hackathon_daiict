@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pexels-bri-schneiter-346529.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#y{
+    padding: 60px 0 30px 0;
+    font-size:30px;
+}
+
+#x{
+    padding: 20px 0 0 0;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 180px;
+    height: 200px;
+}
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul li a:hover{
+    color: black;
+    background-color: blanchedalmond;
+    transition: 1s;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+
+.textbox{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.textbox p{
+    margin: 10px 0 40px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Poiret One', cursive;
+}
+
+.textbox h1{
+    font-size: 60px;
+}
+.center{
+    text-align: center;
+}
+
+#service{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;   
+}
+
+#services{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    display: flex;
+}
+
+#services .box{
+    border-radius: 23px;
+    background-color:white;
+    flex-basis: 31%;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    padding: 40px 0px 40px 0px;
+    transition: 0.5s;
+}
+
+#services .box:hover{
+    box-shadow: 0 0 20px 0px rgba(49, 48, 48, 0.9);
+}
+
+#services .box img{
+    height: 140px;
+    width: 200px;
+    display: block;
+    margin: auto; 
+}
+
+.black{
+    color: black;
+    font-size: 15px;
+}
+/* -------------------------------------Blog----------------------------------------- */
+#white{
+    color: white;
+}
+.header h1{
+    padding: 10px 60px;
+    font-size: 2.2rem;
+    text-align: center;
+}
+.header h3{
+    font-size: 1.9rem;
+    text-align: center; 
+    color:rgb(145, 144, 144);
+}
+.content{
+    width: 100%;
+    height: 1900px;
+    background-color: rgb(214, 241, 241);
+}
+.content h1{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 2.1rem;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+}
+.event-1{
+    width: 80%;
+    height: 260px;
+    background-color: rgb(224, 206, 182);
+    margin: 20px auto;
+}
+.event-1_h2{
+    padding: 10px 0 2px 10px;
+    color: rgb(207, 52, 65);
+    font-size: 1.7rem;
+}
+.event-1_p{
+    padding: 0 10px;
+    display: inline-block;
+}
+.event-1_p::first-letter{
+    font-size: 2.1rem;
+}
+.event-1_a{
+    padding: 2px 10px;
+}
+.reviews{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.reviews .review-1 .stars{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+}
+.fa{
+    margin: 5px;
+}
+.review-1{
+    width: 30%;
+    /* border: 2px solid red; */
+    height: 260px;
+}
+.review-1 p{
+    padding: 10px
+}
+.review-1 img{
+    width: 110px;
+    height: 100px;
+    display: block;
+    margin: 8px auto;
+}
+.stars .checked{
+    color: orange;
+}
+#c img{
+    height:250px;
+    width:250px;
+}
+/* ----------------------------------------Blog Ends--------------------------------------- */
+
+
+/*-------------------------------------------contact----------------------------------------*/ 
+#hp{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(pexels-bri-schneiter-346529.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 108vh;
+    background: #095a55;
+}
+
+#section::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 39%;
+    height: 108%;
+    background: #fff38e;
+}
+
+.container{
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+    z-index: 1000;
+}
+
+.container .contactInfo{
+    position: absolute;
+    top: 100px;
+    width: 218px;
+    height: calc(100% - 220px);
+    background: #095a55;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+    margin-left: -72px;
+}
+
+.container .contactForm{
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 75px;
+    /* width: calc(100% - ); */
+    height: 86%;
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+}
+
+.container .contactInfo h2{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contactInfo ul.info{
+    position: relative;
+    margin: 20px 0;
+}
+
+.container .contactInfo ul.info li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.container .contactInfo ul.info li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+
+.container .contactInfo ul.info li span:nth-child(1) img{
+    max-width:100%;
+    filter:invert(1);
+}
+
+.container .contactInfo ul.info li span:nth-child(2){
+    color: white;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.container .contactInfo ul.sci{
+    position: relative;
+    display: flex;
+
+}
+
+.container .contactInfo ul.sci li{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contactInfo ul.sci li a{
+    text-decoration: none; 
+}
+
+.container .contactInfo ul.sci li a img{
+    max-width:100%;
+    filter: invert(1);
+}
+
+.container .contactForm h2{
+    color: rgb(84, 66, 184);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contactForm .form{
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.container .contactForm .form .input{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.container .contactForm .form .input .ka{
+    width:100%;
+    display: block;
+}
+
+.container .contactForm .form .input .sp{
+    width: 47%;
+}
+
+.container .contactForm .form .input input,
+.container .contactForm .form .input textarea{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 302;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.container .contactForm .form .input textarea{
+    height: 120px;
+}
+
+.container .contactForm .form .input span{
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 302;
+    transition: 0.3s;
+}
+
+.first_box{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contactForm .button{
+    width: 100%;
+}
+/*xyz */
+ .contactForm .form .input input:focus ~ span,
+.container .contactForm .form .input input:valid ~ span,
+.container .contactForm .form .input textarea:focus ~ span,
+.container .contactForm .form .input textarea:valid ~ span{
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #095a55;
+    font-weight: 500;
+}
+
+.container .contactForm .form .input input[type="submit"]{
+    position: relative;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contactForm .form .input input[type="submit"]:hover{
+    background: #0d948b;
+}
+
+/* --------------------------------------------Footer-------------------------------------------------- */
+.footer{
+    background-color: #333;
+    width: 100%;
+    height: 90px;
+    position: relative;
+}
+.footer h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: whitesmoke;
+}
